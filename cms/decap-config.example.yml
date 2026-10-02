@@ -1,0 +1,38 @@
+# Primer za produkcionu CMS fazu. Ne aktivirati pre povezivanja Git Gateway/OAuth autentikacije.
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "products"
+    label: "Proizvodi"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Naziv", name: "name", widget: "string" }
+      - { label: "URL slug", name: "slug", widget: "string" }
+      - { label: "Kategorija", name: "category", widget: "select", options: ["Zupčaste pumpe", "Centrifugalne pumpe", "Zavojne pumpe", "Vakuum pumpe", "Membranske pumpe"] }
+      - { label: "Proizvođač", name: "manufacturer", widget: "string", required: false }
+      - { label: "Glavna slika", name: "image", widget: "image" }
+      - { label: "Dodatne slike", name: "gallery", widget: "list", field: { label: "Slika", name: "image", widget: "image" }, required: false }
+      - { label: "Kratak opis", name: "intro", widget: "text" }
+      - { label: "Detaljan opis", name: "description", widget: "text" }
+      - label: "Tehničke specifikacije"
+        name: "specs"
+        widget: "list"
+        fields:
+          - { label: "Naziv", name: "label", widget: "string" }
+          - { label: "Vrednost", name: "value", widget: "string" }
+      - { label: "Oblasti primene", name: "applications", widget: "list" }
+      - { label: "Ključne prednosti", name: "benefits", widget: "list" }
+      - { label: "PDF katalog", name: "catalogPdf", widget: "file", required: false }
+      - { label: "Tehnički list", name: "dataSheet", widget: "file", required: false }
+      - { label: "Sertifikati", name: "certificates", widget: "list", field: { label: "Sertifikat", name: "file", widget: "file" }, required: false }
+      - { label: "SEO naslov", name: "seoTitle", widget: "string", required: false }
+      - { label: "SEO opis", name: "seoDescription", widget: "text", required: false }
