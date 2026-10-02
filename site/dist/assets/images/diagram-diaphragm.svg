@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" role="img" aria-label="Šematski motiv membranske pumpe">
+  <g stroke="#244526" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M85 60H275M85 160H275M180 30V60M180 160V190" stroke="#8fa887"/>
+    <path d="M122 67C91 67 73 87 73 110S91 153 122 153M238 67C269 67 287 87 287 110S269 153 238 153"/>
+    <path d="M122 67C146 86 146 134 122 153M238 67C214 86 214 134 238 153" stroke-width="2"/>
+    <path d="M131 110H229M85 60V79M275 60V79M85 141V160M275 141V160"/>
+    <path d="M108 73C128 93 128 127 108 147M252 73C232 93 232 127 252 147" stroke="#b0bfaa" stroke-dasharray="3 6"/>
+    <circle cx="180" cy="110" r="9"/>
+    <path d="M166 43H194M166 177H194" stroke="#b0bfaa"/>
+  </g>
+</svg>

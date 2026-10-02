@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" role="img" aria-label="Šematski motiv zavojnog prenosa">
+  <g stroke="#244526" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 110H329" stroke="#b0bfaa" stroke-dasharray="6 9"/>
+    <path d="M62 78H298M62 142H298M62 68V152M298 68V152"/>
+    <path d="M68 110C86 71 108 71 126 110S166 149 184 110S224 71 242 110S278 149 292 110" stroke-width="2"/>
+    <path d="M68 110C86 149 108 149 126 110S166 71 184 110S224 149 242 110S278 71 292 110" stroke="#8fa887"/>
+    <path d="M83 52H275M83 48V56M275 48V56M83 168H275M83 164V172M275 164V172" stroke="#b0bfaa"/>
+  </g>
+</svg>

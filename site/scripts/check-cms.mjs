@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+const origin='http://127.0.0.1:4184';
+const initial=await (await fetch(origin+'/api/catalog')).json();
+assert.ok(initial.data.products.length>0);
+const payload={data:initial.data,revision:initial.revision};
+const headers={'Content-Type':'application/json','Origin':origin,'X-CSRF-Token':initial.token};
+const denied=await fetch(origin+'/api/catalog',{method:'PUT',headers:{'Content-Type':'application/json','Origin':origin},body:JSON.stringify(payload)});assert.equal(denied.status,403);
+const invalid=structuredClone(payload);invalid.data.products[0].image='assets/../invalid.png';
+const invalidResponse=await fetch(origin+'/api/catalog',{method:'PUT',headers,body:JSON.stringify(invalid)});assert.equal(invalidResponse.status,400);
+const saved=await fetch(origin+'/api/catalog',{method:'PUT',headers,body:JSON.stringify(payload)});assert.equal(saved.status,200,await saved.text());
+const readback=await (await fetch(origin+'/api/catalog')).json();assert.deepEqual(readback.data,initial.data);
+const conflict=await fetch(origin+'/api/catalog',{method:'PUT',headers,body:JSON.stringify({...payload,revision:'stale-revision'})});assert.equal(conflict.status,409);
+const html=await(await fetch(origin+'/')).text();assert.ok(html.includes('product-card'));
+const badUpload=await fetch(origin+'/api/upload',{method:'POST',headers:{Origin:origin,'X-CSRF-Token':initial.token,'X-File-Name':'bad.png'},body:'not an image'});assert.equal(badUpload.status,400);
+console.log('PASS: local persistence and regeneration, CSRF, path validation, concurrent-edit rejection, invalid upload rejection.');

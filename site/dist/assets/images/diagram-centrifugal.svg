@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none" role="img" aria-label="Šematski motiv centrifugalnog toka">
+  <g stroke="#244526" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 111H112M211 35H294" stroke="#8fa887"/>
+    <path d="M211 35V67C241 82 252 113 238 143C222 178 174 186 143 163C108 137 111 89 143 69C167 54 200 61 212 85C224 109 214 135 192 143C174 150 155 142 151 126"/>
+    <circle cx="178" cy="111" r="15"/>
+    <path d="M178 96C172 80 155 78 144 83M193 111C209 105 212 88 206 77M178 126C185 142 201 145 213 139M163 111C147 118 145 135 151 146"/>
+    <circle cx="178" cy="111" r="76" stroke="#b0bfaa" stroke-dasharray="2 9"/>
+    <path d="M178 20V29M178 193V202M87 111H96M260 111H269" stroke="#b0bfaa"/>
+  </g>
+</svg>

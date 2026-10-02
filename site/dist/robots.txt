@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /products/
+Sitemap: https://greenline-pumps.volodya-d90.chatgpt.site/sitemap.xml

@@ -1,0 +1,440 @@
+{
+  "locale": "sr-Latn-RS",
+  "groups": [
+    {
+      "id": "zupcaste",
+      "name": "Zupčaste pumpe",
+      "shortName": "Zupčaste",
+      "description": "Za ulja, maziva, asfalt i viskozne medije."
+    },
+    {
+      "id": "centrifugalne",
+      "name": "Centrifugalne pumpe",
+      "shortName": "Centrifugalne",
+      "description": "Za vodu, termalna ulja i sisteme sa višim potiskom."
+    },
+    {
+      "id": "zavojne",
+      "name": "Zavojne pumpe",
+      "shortName": "Zavojne",
+      "description": "Ravnomeran transport medija sa česticama i vlaknima."
+    },
+    {
+      "id": "vakuum",
+      "name": "Vakuum pumpe",
+      "shortName": "Vakuum",
+      "description": "Za stvaranje i održavanje vakuuma u procesu."
+    },
+    {
+      "id": "membranske",
+      "name": "Membranske pumpe",
+      "shortName": "Membranske",
+      "description": "Plastična i metalna rešenja za hemijske medije."
+    }
+  ],
+  "products": [
+    {
+      "id": "zpa-tip",
+      "name": "ZPA tip",
+      "category": "zupcaste",
+      "image": "assets/images/zpa-tip.png",
+      "badge": "Istaknuto rešenje",
+      "intro": "Toplotno izolovana zupčasta pumpa za medije više temperature.",
+      "description": "Za prenos teške nafte, asfalta, smole, deterdženta i lepka bez čvrstih čestica.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "80 m³/h"
+        },
+        {
+          "label": "Diferencijalni pritisak",
+          "value": "6 bar"
+        },
+        {
+          "label": "Temperatura medija",
+          "value": "do 300°C"
+        }
+      ],
+      "applications": [
+        "asfalt",
+        "smola",
+        "lepak",
+        "teška nafta"
+      ],
+      "benefits": [
+        "Toplotna izolacija",
+        "Pouzdan prenos viskoznih medija",
+        "Rešenje za visoke temperature"
+      ],
+      "slug": "zpa-tip",
+      "order": 0,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "ZPA tip | GreenLine Pumps",
+      "seoDescription": "Toplotno izolovana zupčasta pumpa za medije više temperature.",
+      "source": "https://greenlinepumps.webflow.io/products/zpa-tip"
+    },
+    {
+      "id": "zp-1-serija",
+      "name": "ZP-1 serija",
+      "category": "zupcaste",
+      "image": "assets/images/zp-1-serija.png",
+      "intro": "Zupčasta pumpa za prenos i povišenje pritiska ulja.",
+      "description": "Konstrukcija za transport nekorozivnih maziva, sa termički obrađenim zupčanicima i sigurnosnim ventilom.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "16.000 l/min"
+        },
+        {
+          "label": "Diferencijalni pritisak",
+          "value": "15 bar"
+        },
+        {
+          "label": "Medij",
+          "value": "nekorozivna maziva"
+        }
+      ],
+      "applications": [
+        "maziva",
+        "sistemi za dovod ulja",
+        "industrijski prenos"
+      ],
+      "benefits": [
+        "Sigurnosni ventil",
+        "Samopodmazivanje medijem",
+        "Povećana tvrdoća zupčanika"
+      ],
+      "slug": "zp-1-serija",
+      "order": 2,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "ZP-1 serija | GreenLine Pumps",
+      "seoDescription": "Zupčasta pumpa za prenos i povišenje pritiska ulja.",
+      "source": "https://greenlinepumps.webflow.io/products/zp-1-serija"
+    },
+    {
+      "id": "zp-2-serija",
+      "name": "ZP-2 serija",
+      "category": "zupcaste",
+      "image": "assets/images/zp-2-serija.png",
+      "intro": "Cirkularna zupčasta pumpa za čista ulja i visoke temperature.",
+      "description": "Za transport nekorozivnog ulja za podmazivanje i sličnih tečnosti bez čvrstih čestica.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "97 m³/h"
+        },
+        {
+          "label": "Diferencijalni pritisak",
+          "value": "16 bar"
+        },
+        {
+          "label": "Temperatura medija",
+          "value": "do 300°C"
+        }
+      ],
+      "applications": [
+        "ulja",
+        "podmazivanje",
+        "procesna industrija"
+      ],
+      "benefits": [
+        "Niži nivo buke",
+        "Dug radni vek",
+        "Visoka efikasnost"
+      ],
+      "slug": "zp-2-serija",
+      "order": 4,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "ZP-2 serija | GreenLine Pumps",
+      "seoDescription": "Cirkularna zupčasta pumpa za čista ulja i visoke temperature.",
+      "source": "https://greenlinepumps.webflow.io/products/zp-2-serija"
+    },
+    {
+      "id": "cp-1-serija",
+      "name": "CP-1 serija",
+      "category": "centrifugalne",
+      "image": "assets/images/cp-1-serija.png",
+      "badge": "Istaknuto rešenje",
+      "intro": "Pouzdano rešenje za termalno ulje i toplu vodu.",
+      "description": "Centrifugalna pumpa za prenos tečnosti visoke temperature bez čvrstih čestica.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "50 m³/h"
+        },
+        {
+          "label": "Maks. potisak",
+          "value": "125 m"
+        },
+        {
+          "label": "Pogon",
+          "value": "motor preko spojnice"
+        }
+      ],
+      "applications": [
+        "termalno ulje",
+        "topla voda",
+        "grejni sistemi"
+      ],
+      "benefits": [
+        "Stabilne performanse",
+        "Pouzdan rad na temperaturi",
+        "Jednostavna integracija"
+      ],
+      "slug": "cp-1-serija",
+      "order": 1,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "CP-1 serija | GreenLine Pumps",
+      "seoDescription": "Pouzdano rešenje za termalno ulje i toplu vodu.",
+      "source": "https://greenlinepumps.webflow.io/products/cp-1-serija"
+    },
+    {
+      "id": "cpv-1-serija",
+      "name": "CPV-1 serija",
+      "category": "centrifugalne",
+      "image": "assets/images/cpv-1-serija.png",
+      "intro": "Višestepena centrifugalna pumpa za prenos na velike udaljenosti.",
+      "description": "Projektovana za transport tečnog ulja bez čvrstih čestica i drugih odgovarajućih tečnosti.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "150 m³/h"
+        },
+        {
+          "label": "Maks. potisak",
+          "value": "603 m"
+        },
+        {
+          "label": "Konstrukcija",
+          "value": "višestepena"
+        }
+      ],
+      "applications": [
+        "prenos na velike udaljenosti",
+        "ulja",
+        "industrijski sistemi"
+      ],
+      "benefits": [
+        "Visok potisak",
+        "Višestepena konstrukcija",
+        "Kontinuiran rad"
+      ],
+      "slug": "cpv-1-serija",
+      "order": 3,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "CPV-1 serija | GreenLine Pumps",
+      "seoDescription": "Višestepena centrifugalna pumpa za prenos na velike udaljenosti.",
+      "source": "https://greenlinepumps.webflow.io/products/cpv-1-serija"
+    },
+    {
+      "id": "vcp-1-serija",
+      "name": "VCP-1 serija",
+      "category": "centrifugalne",
+      "image": "assets/images/vcp-1-serija.png",
+      "intro": "Vertikalna višestepena pumpa koja štedi prostor.",
+      "description": "Pogodna za transport hladne i tople vode kada su jednostavna instalacija i prostorna efikasnost prioritet.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "162 m³/h"
+        },
+        {
+          "label": "Maks. potisak",
+          "value": "200 m"
+        },
+        {
+          "label": "Kućište",
+          "value": "nerđajući čelik"
+        }
+      ],
+      "applications": [
+        "vodosnabdevanje",
+        "topla voda",
+        "kompaktne mašinske sobe"
+      ],
+      "benefits": [
+        "Prostorno efikasna",
+        "Stabilan rad",
+        "Jednostavna instalacija"
+      ],
+      "slug": "vcp-1-serija",
+      "order": 5,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "VCP-1 serija | GreenLine Pumps",
+      "seoDescription": "Vertikalna višestepena pumpa koja štedi prostor.",
+      "source": "https://greenlinepumps.webflow.io/products/vcp-1-serija"
+    },
+    {
+      "id": "cpp-1",
+      "name": "CPP-1",
+      "category": "membranske",
+      "image": "assets/images/cpp-1.png",
+      "intro": "Plastične i metalne membranske pumpe za zahtevne fluide.",
+      "description": "Otporne na hemikalije, sa širokim spektrom primene i pogonom na komprimovani vazduh, paru ili otpadni gas.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "0–30 m³/h"
+        },
+        {
+          "label": "Maks. potisak",
+          "value": "0–50 m"
+        },
+        {
+          "label": "Pogon",
+          "value": "pneumatski / para / gas"
+        }
+      ],
+      "applications": [
+        "hemikalije",
+        "otpadne vode",
+        "korozivni mediji"
+      ],
+      "benefits": [
+        "Hemijska otpornost",
+        "Široka primena",
+        "Više opcija pogona"
+      ],
+      "slug": "cpp-1",
+      "order": 6,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "CPP-1 | GreenLine Pumps",
+      "seoDescription": "Plastične i metalne membranske pumpe za zahtevne fluide.",
+      "source": "https://greenlinepumps.webflow.io/products/cpp-1"
+    },
+    {
+      "id": "zm-1-serija",
+      "name": "ZM-1 serija",
+      "category": "zavojne",
+      "image": "assets/images/zm-1-serija.png",
+      "intro": "Mono zavojna pumpa za medije sa čvrstim česticama i vlaknima.",
+      "description": "Rotaciona pumpa za stabilan protok i pritisak, sa malim brojem sastavnih delova i jednostavnim održavanjem.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "na upit"
+        },
+        {
+          "label": "Diferencijalni pritisak",
+          "value": "na upit"
+        },
+        {
+          "label": "Protok",
+          "value": "stalan, bez pulsiranja"
+        }
+      ],
+      "applications": [
+        "mulj",
+        "mediji sa vlaknima",
+        "otpadne vode"
+      ],
+      "benefits": [
+        "Nizak nivo buke",
+        "Bez pulsiranja",
+        "Lako održavanje"
+      ],
+      "slug": "zm-1-serija",
+      "order": 7,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "ZM-1 serija | GreenLine Pumps",
+      "seoDescription": "Mono zavojna pumpa za medije sa čvrstim česticama i vlaknima.",
+      "source": "https://greenlinepumps.webflow.io/products/zm-1-serija"
+    },
+    {
+      "id": "vp-1-serija",
+      "name": "VP-1 serija",
+      "category": "vakuum",
+      "image": "assets/images/vp-1-serija.png",
+      "intro": "Vakuum pumpa sa vodenim prstenom za gasove i paru.",
+      "description": "Za pumpanje ili komprimovanje vazduha i drugih nekorozivnih gasova nerastvorljivih u vodi.",
+      "specs": [
+        {
+          "label": "Maks. kapacitet",
+          "value": "na upit"
+        },
+        {
+          "label": "Diferencijalni pritisak",
+          "value": "na upit"
+        },
+        {
+          "label": "Radni princip",
+          "value": "vodeni prsten"
+        }
+      ],
+      "applications": [
+        "vakuum procesi",
+        "gasovi",
+        "para"
+      ],
+      "benefits": [
+        "Izotermna kompresija",
+        "Konstrukcija sa vodenim prstenom",
+        "Pouzdan vakuum"
+      ],
+      "slug": "vp-1-serija",
+      "order": 8,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "VP-1 serija | GreenLine Pumps",
+      "seoDescription": "Vakuum pumpa sa vodenim prstenom za gasove i paru.",
+      "source": "https://greenlinepumps.webflow.io/products/vp-1-serija"
+    },
+    {
+      "id": "vp-1-serija-vs",
+      "name": "VP-1 vakuumska stanica",
+      "category": "vakuum",
+      "image": "assets/images/vp-1-serija-vs.png",
+      "intro": "Kompletan sistem za skladištenje i upravljanje vakuumom.",
+      "description": "Stanica sa jednom ili dve vakuum pumpe sa vodenim prstenom kao opremom za prikupljanje vakuuma.",
+      "specs": [
+        {
+          "label": "Konfiguracija",
+          "value": "1 ili 2 pumpe"
+        },
+        {
+          "label": "Kapacitet",
+          "value": "na upit"
+        },
+        {
+          "label": "Prednost",
+          "value": "ušteda energije"
+        }
+      ],
+      "applications": [
+        "centralni vakuum",
+        "procesni sistemi",
+        "česta upotreba vakuuma"
+      ],
+      "benefits": [
+        "Duži vek opreme",
+        "Energetska efikasnost",
+        "Kompletno rešenje"
+      ],
+      "slug": "vp-1-serija-vs",
+      "order": 9,
+      "manufacturer": "",
+      "gallery": [],
+      "documents": [],
+      "seoTitle": "VP-1 vakuumska stanica | GreenLine Pumps",
+      "seoDescription": "Kompletan sistem za skladištenje i upravljanje vakuumom.",
+      "source": "https://greenlinepumps.webflow.io/products/vp-1-serija-vs"
+    }
+  ]
+}
